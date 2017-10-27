@@ -1,0 +1,16 @@
+Reference,Value,Footprint,Count,Datasheet,FootprintLib
+U1,AT86RF212B,LQFP-32-1EP_5x5mm_Pitch0.5mm,1,,Housings_QFP
+L2,FB2,R_0805,1,,Resistors_SMD
+L3,FB1,R_0805,1,,Resistors_SMD
+Y1,16.0Mhz,Crystal_SMD_3225-4pin_3.2x2.5mm,1,,Crystals
+C5;C8,11pF,C_0402,2,,Capacitors_SMD
+C6;C7;C1;C2,1uF,C_0402,4,,Capacitors_SMD
+R1,470,R_0402,1,,Resistors_SMD
+C3,2.2pF,C_0402,1,,Capacitors_SMD
+B1,BALUN,BALUN,1,,makerlab
+J1,Conn_Coaxial,SMA_EDGELAUNCH,1,,adafruit
+C10,100pF,C_0402,1,,Capacitors_SMD
+R3;R2;R4;R5,0,R_0402,4,,Resistors_SMD
+J2;J3,Conn_01x07,Pin_Header_Straight_1x07_Pitch2.54mm,2,,Pin_Headers
+R8,10k,R_0402,1,,Resistors_SMD
+R6,22,R_0402,1,,Resistors_SMD
