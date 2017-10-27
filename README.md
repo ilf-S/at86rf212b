@@ -1,0 +1,1 @@
+Kicad project files for a 2 layer PCB with AT86RF212B transceiver. The board uses separated digital and analog ground planes on a 2 layer PCB design. Board has not been tested yet, so use with caution.
