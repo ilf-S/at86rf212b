@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ilf/Sync/kicad_projects/at86rf212b_2l/at86rf212b_2l/at86rf212b_2l.sch)
-    (date "Sat 28 Oct 2017 10:14:55 PM EEST")
+    (date "Thu 30 Nov 2017 05:49:21 PM EET")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value AT86RF212B)
-      (footprint Housings_QFP:LQFP-32-1EP_5x5mm_Pitch0.5mm)
+      (footprint Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm)
       (libsource (lib at86rf212b_2l-cache) (part AT86RF212B))
       (sheetpath (names /) (tstamps /))
       (tstamp 59E50A93))
@@ -283,12 +283,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical at86rf212b_2l-cache)
+      (uri /home/ilf/Sync/kicad_projects/at86rf212b_2l/at86rf212b_2l/at86rf212b_2l-cache.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical at86rf212b_2l-cache)
-      (uri /home/ilf/Sync/kicad_projects/at86rf212b_2l/at86rf212b_2l/at86rf212b_2l-cache.lib)))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /DIG4)
       (node (ref U1) (pin 2))
